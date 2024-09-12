@@ -26,7 +26,7 @@ async function createNewsCard(){
 
 async function getNews(){
     try{
-        let response = await fetch(`http://localhost:3000/news`);
+        let response = await fetch(`https://newzapp-j4ft.onrender.com/news`);
 
         if(!response.ok){
             throw new Error("Failed to fetch data!")
