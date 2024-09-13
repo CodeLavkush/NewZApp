@@ -1,0 +1,27 @@
+
+footer{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--c1-);
+}
+footer p{
+    color: white;
+}
+footer .footer-link{
+    margin: .1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .4rem;
+}
+footer .footer-link img{
+    width: 2rem;
+}
+footer .footer-link a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}

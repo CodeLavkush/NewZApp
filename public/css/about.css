@@ -1,0 +1,77 @@
+.hero-section{
+    background-image: url("/img/B_5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 20rem;
+}
+.hero-section .blur{
+    background-color: rgba(0, 0, 0, 0.521);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.hero-section .blur .content{
+    text-align: center;
+    color: white;
+    width: 60%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-section .blur .content hr{
+    border-right: 40rem solid #888;
+}
+
+.info-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .8rem;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.info{
+    position: relative;
+    padding: .6rem;
+    margin-top: 1rem;
+    background-color: rgba(128, 128, 128, 0.199);
+    width: 90%;
+    height: 40%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: .2rem .2rem .6rem black;
+}
+.info img{
+    width: 40%;
+}
+
+@media (max-width: 430px) {
+    .hero-section .blur .content hr{
+        border-right: 20rem solid #888;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .info img{
+        width: 80%;
+    }
+}
+
+@media (max-width: 330px) {
+    .hero-section .blur .content hr{
+        border-right: 10rem solid #888;
+    }
+}

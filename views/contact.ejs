@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us - To get in touch</title>
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/contact.css">
+</head>
+<body>
+    <%- include('navbar.html') %>
+    <div class="form-div">
+        <form class="form-main" action="/contact" method="POST">
+            <h3>Subscribe to our NewZ Letter</h3>
+            <input type="text" name="FirstName" required placeholder="Enter Your First Name">
+            <input type="text" name="LastName" required placeholder="Enter Your Last Name">
+            <input type="email" name="Email" required placeholder="Enter Your Email">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <%- include('footer.html') %>
+</body>
+</html>
