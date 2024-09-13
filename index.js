@@ -7,7 +7,7 @@ const app = express()
 const port = 3000;
 
 
-await mongoose.connect("mongodb://localhost:27017/newz")
+// await mongoose.connect("mongodb://localhost:27017/newz")
 
 // app.use(express.urlencoded({extended: true}))
 app.use(express.static('public'));
