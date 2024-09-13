@@ -39,6 +39,6 @@ async function getNews(){
     }
 }
 
-for(let i = 0; i < 100; i++){
+for(let i = 0; i < 12; i++){
     createNewsCard();
 }
