@@ -8,7 +8,7 @@ const port = 3000;
 
 const url = `mongodb+srv://thanos_45:${process.env.PASSWORDDB}@newzapp.sh7nb.mongodb.net/?retryWrites=true&w=majority&appName=newzapp`;
 
-await mongoose.connect(url);
+// await mongoose.connect(url);
 
 app.use(express.urlencoded({extended: true}))
 app.use(express.static('public'));
