@@ -6,10 +6,11 @@ import Customers from './models/Customers.js';
 const app = express()
 const port = 3000;
 
+const url = "mongodb+srv://thanos_45:<db_password>@newzapp.sh7nb.mongodb.net/?retryWrites=true&w=majority&appName=newzapp";
 
-// await mongoose.connect("mongodb://localhost:27017/newz")
+await mongoose.connect(url);
 
-// app.use(express.urlencoded({extended: true}))
+app.use(express.urlencoded({extended: false}))
 app.use(express.static('public'));
 app.use(express.json());
 
