@@ -1,3 +1,3 @@
 ### This my second Project.
-It's a news web app. It uses NEWS API to collect news data and diplay tham into the webpage.
-News API - https://newsapi.org/
+It's a news web app. It uses NEWS API to collect news data and diplay tham into the webpage.\n
+## News API - https://newsapi.org/
