@@ -6,7 +6,7 @@ import Customers from './models/Customers.js';
 const app = express()
 const port = 3000;
 
-const url = "mongodb+srv://thanos_45:thanos45@newzapp.sh7nb.mongodb.net/?retryWrites=true&w=majority&appName=newzapp";
+const url = `mongodb+srv://thanos_45:${process.env.PASSWORDDB}@newzapp.sh7nb.mongodb.net/?retryWrites=true&w=majority&appName=newzapp`;
 
 await mongoose.connect(url);
 
