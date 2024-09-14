@@ -10,7 +10,7 @@ const url = `mongodb+srv://thanos_45:${process.env.PASSWORDDB}@newzapp.sh7nb.mon
 
 await mongoose.connect(url);
 
-app.use(express.urlencoded({extended: false}))
+app.use(express.urlencoded({extended: true}))
 app.use(express.static('public'));
 app.use(express.json());
 
