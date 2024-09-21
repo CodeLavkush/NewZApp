@@ -6,7 +6,7 @@ import Customers from './models/Customers.js';
 const app = express()
 const port = 3000;
 
-// await mongoose.connect(url);
+await mongoose.connect(process.env.MOGODB_URL);
 
 app.use(express.urlencoded({extended: true}))
 app.use(express.static('public'));
