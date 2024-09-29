@@ -12,7 +12,7 @@ body{
     background-image: linear-gradient(to right, var(--c3-), var(--c4-));
     height: 4rem;
 }
-.navbar-main .menu{
+.navbar-main .menu-icon{
     width: 6rem;
     color: black;
     height: 100%;
@@ -20,10 +20,10 @@ body{
     justify-content: center;
     align-items: center;
 }
-.navbar-main .menu .close-btn{
+.navbar-main .menu-icon{
     display: none;
 }
-.navbar-main .menu:hover{
+.navbar-main .menu-icon:hover{
     background-color: var(--c3-);
 }
 .navbar-main .rightSide h1 a{
