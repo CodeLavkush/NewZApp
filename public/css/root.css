@@ -15,4 +15,5 @@ body{
     min-height: 100vh;
     box-sizing: border-box;
     font-family: "Poppins", system-ui;
+    line-height: 1rem;
 }
