@@ -32,6 +32,7 @@ body{
     text-align: center;
 }
 .hero-section .blur .tagline-section p{
+    line-height: 1.8rem;
     text-align: center;
     color: white;
     font-weight: 200;
@@ -57,6 +58,7 @@ body{
     height: auto;
 }
 .top-news .news-cards .card{
+    line-height: 1.6rem;
     margin: .2rem;
     gap: .4rem;
     padding: .4rem;
